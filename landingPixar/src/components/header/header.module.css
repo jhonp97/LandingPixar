@@ -1,0 +1,21 @@
+.Menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 20px;
+}
+
+.MenuList {
+    display: flex;
+    list-style: none;
+    
+    gap: 2.5rem;
+}
+
+.MenuItem a{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-decoration: none;
+}

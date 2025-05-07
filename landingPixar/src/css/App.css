@@ -1,2 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.Header{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+.Header-logoImg{
+    width: auto;
+    max-width: 100%;
+    max-height: 31px;
+    cursor: pointer;
+}
 
 
+.Hero{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-img{
+    width: 50%;
+    cursor: pointer;
+
+}
+
+
+.movieSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-gallery{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:6px ;
+    padding-bottom:20px ;
+}
+
+.movie-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28%;
+    height: 300px;
+  
+}
+
+.movie-image{
+    background-size: cover;
+    max-width: 90%;
+    max-height: 200px;
+}
+
+.movie-image:nth-child(3){
+    width: 10%;
+    
+    background-size: cover;
+    background-position: center;
+}
+.movie-text{
+    color: aliceblue;
+    font-weight: 600;
+}
