@@ -1,4 +1,7 @@
+import BateVerde from "./BateBerde"
+import Grid from "./Grid"
 import MovieCard from "./MovieCard"
+import WinLose from "./WinLose"
 
 const MovieSection = () => {
 
@@ -17,13 +20,14 @@ const MovieSection = () => {
     return(
         <>
             <section className="movieSection">
-                <h3>Movie section</h3>
+            
 
-                <h4>Win or Loose</h4>
-                <h4>Carrers</h4>
-                <h4>Meet the pickets</h4>
+                <WinLose />
+                <Grid />
+                <BateVerde />
+                
 
-                <h4>Movie Gallery</h4>
+                
                 <div className="movie-gallery">
                     {movies.map((movie, i)=>{
                         return ( 
