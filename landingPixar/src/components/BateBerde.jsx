@@ -32,9 +32,8 @@ const BateVerde = () => {
               <h2 style={{ fontSize: "2rem", marginBottom: "20px" }}>
                 NOW STREAMING
               </h2>
-              <p style={{ fontSize: "1rem" }}>
-                Meet Ember and Wade in Pixar’s new film about opposites reacting.
-              </p>
+              
+              
             </div>
           </section>
         );

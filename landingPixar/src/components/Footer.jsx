@@ -26,7 +26,7 @@ function Footer() {
                         <a href="#">Tech at Pixar</a>
                         <a href="#">RenderMan</a>
                         <a href="#">Open USD</a>
-                        <a href="#">Software R&amp;D</a>
+                        <a href="#">Software RD</a>
                         <a href="#">Libraries</a>
                     </div>
                     <div className="footer__column">
@@ -49,14 +49,14 @@ function Footer() {
 
 
             <div className="footer__bottom">
-                <p className="footer__disclaimer">Do Not Sell or Share My Personal Information</p>
+                <p className="footer__text">Do Not Sell or Share My Personal Information</p>
                 <div className="footer__links">
                     <a href="#">Privacy Policy</a> |
                     <a href="#"> Your US State Privacy Rights</a> |
-                    <a href="#"> Children’s Online Privacy Policy</a> |
+                    <a href="#"> Childrens Online Privacy Policy</a> |
                     <a href="#"> Interest Based Ads</a> |
                 </div>
-                <p>© 1986–{new Date().getFullYear()} Disney•Pixar</p>
+                <p>© 1986–2025 Disney•Pixar</p>
             </div>
 
         </footer>
