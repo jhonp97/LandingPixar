@@ -8,5 +8,8 @@ export default defineConfig({
       "@": "/src"
     }
   },
-  base: '/LandingPixar/' // Usa exactamente el nombre del repositorio
+  base: '/LandingPixar/', // Asegúrate de que es el nombre EXACTO de tu repositorio
+  build: {
+    outDir: 'docs' // Indica que los archivos deben generarse en docs
+  }
 })
