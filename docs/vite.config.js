@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()], 
@@ -8,8 +8,9 @@ export default defineConfig({
       "@": "/src"
     }
   },
-  base: '/LandingPixar/', // Asegúrate de que es el nombre EXACTO de tu repositorio
+  base: '/LandingPixar/', // Es el nombre del repositorio, no la carpeta "docs"
   build: {
-    outDir: 'docs' // Indica que los archivos deben generarse en docs
+    outDir: 'docs' // Vite coloca los archivos en esta carpeta
   }
-})
+});
+
